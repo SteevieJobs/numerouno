@@ -15,7 +15,7 @@ export default function Home() {
                     <h1 className='text-3xl font-extrabold my-4 text-c-white text-center'>What are we watching?</h1>
                     <div className='w-10/12 flex flex-col md:flex-row justify-evenly items-center my-4'>
                         <Link href="/" className='shadow-buttons text-center mx-3 w-full bg-c-red px-8 py-3 font-medium text-c-black rounded-md hover:border-c-white hover:border-2 hover:text-c-white border-c-black border-2 border-solid duration-200'>Continue Show</Link>
-                        <Link href="/" className='shadow-buttons w-full text-center  bg-c-white px-8 py-3 my-3 font-medium rounded-md duration-200 hover:border-c-red border-2 border-c-black hover:text-c-red'>No Idea</Link>
+                        <Link href="/popular" className='shadow-buttons w-full text-center  bg-c-white px-8 py-3 my-3 font-medium rounded-md duration-200 hover:border-c-red border-2 border-c-black hover:text-c-red'>No Idea</Link>
                     </div>
                 </div>
             </div>
