@@ -15,7 +15,7 @@ const page = (props: Props) => {
         <div className='w-full flex flex-col h-full'>
             <section className='h-full mb-12'>
                 <h1 className='my-2 mx-4 md:mx-20 font-bold text-xl'>Popular Media</h1>
-                <div className='h-full overflow-x-scroll overflow-y-hidden whitespace-nowrap py-4'>
+                <div className='h-full overflow-x-scroll overflow-y-hidden md:overflow-hidden whitespace-nowrap py-4'>
                     <BigCard streamingService='hbo' rating='7.6'></BigCard>
                     <BigCard streamingService='disney' rating='7.6'></BigCard>
                     <BigCard streamingService='netflix' rating='7.6'></BigCard>
@@ -25,7 +25,7 @@ const page = (props: Props) => {
                 </div>
             </section>
             <section className='h-full'>
-                <h1>Top Services</h1>
+                <h1 className='my-2 mx-4 md:mx-20 font-bold text-xl'>Top Services</h1>
                 <div></div>
             </section>
         </div>
