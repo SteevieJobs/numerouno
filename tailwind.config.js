@@ -19,7 +19,8 @@ module.exports = {
         },
         boxShadow: {
             'tv': '0 6px 32px 11px rgba(22, 18, 18, 0.51)',
-            'buttons': '5px 4px 4px rgba(22, 18, 18, 0.25);'
+            'buttons': '5px 4px 4px rgba(22, 18, 18, 0.25);',
+            'BigCard': '5px 5px 5px 4px rgba(0, 0, 0, 0.25);'
         },
     },
     plugins: [],

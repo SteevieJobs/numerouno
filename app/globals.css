@@ -12,3 +12,23 @@
   --redorange: #e95429;
   --orange: #fb8b24;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Set the background color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Set the color and shape of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(22, 18, 18, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(22, 18, 18, 0.8);
+}

@@ -1,0 +1,21 @@
+.main-card {
+  position: relative;
+  padding: 7px;
+}
+
+.main-card::before {
+  content: attr(data-text);
+  width: 60px;
+  height: 30px;
+  background-color: #fb8b24;
+  position: absolute;
+  text-align: center;
+  padding-top: 4px;
+  top: 5;
+  right: 8px;
+  transform: translate(50%, -50%);
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
