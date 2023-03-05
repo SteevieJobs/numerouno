@@ -6,7 +6,7 @@ import StaticMovie from './images/staticmovie.gif';
 
 export default function Home() {
     return (
-        <main className="h-screen w-full overflow-hidden bg-c-white">
+        <main className="h-screen w-full bg-c-white">
             <div className="flex h-full flex-col justify-center">
                 <Navbar />
                 <div className="flex h-full w-full flex-auto flex-row">
